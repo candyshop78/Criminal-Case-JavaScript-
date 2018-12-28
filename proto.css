@@ -1,0 +1,107 @@
+body{
+    background:  url("photo-1453873531674-2151bcd01707.png") no-repeat center fixed ;
+    /* -webkit-filter: blur(8px); 
+    filter: blur(8px); */
+   
+    background-size: cover;
+}
+
+
+#back{
+    padding-left: 2%;
+    font-size: 35px;
+    text-decoration: none;
+    color:royalblue;
+    font-family: fantasy;
+}
+
+#next{
+    padding-right: 2%;
+    float: right;
+    font-size: 35px;
+    text-decoration: none;
+    color:royalblue;
+    font-family: fantasy;
+}
+
+#back:hover
+{
+    color: red
+}
+
+#next:hover{
+    color: red
+}
+
+img{
+    height: 260px;
+    width: 120px;
+    padding: 15px
+}
+
+img:hover{
+    transform: scale(1.2,1.2);
+    transition: 2s;
+}
+
+form {
+    background-color:transparent;
+    width: 350px;
+    height: 1px;
+    padding-top: 4%;
+    padding-left: 5%
+}
+
+#chars{
+    float: right;
+    padding-right: 1%;
+}
+
+.label{
+    font-size: 20px;
+    color:greenyellow;
+    font-weight: bold;
+}
+
+
+.text{
+    font-weight: bold;
+    color:royalblue;
+    width: 80%;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+.Confirm{
+    color:royalblue;
+    background-color: greenyellow;
+    font-weight: bold;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#btn
+{
+    padding-left: 15%
+}
+
+.Confirm:hover{
+    color: royalblue;
+    background-color: red
+}
+
+
+p{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: greenyellow;
+}
+
+
+.gallery{
+    display: block;
+    float: left;
+}
